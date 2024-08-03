@@ -1,0 +1,76 @@
+// i pus all the css used for the app here, usually if there is a component that is the only one that uses 
+// a certain object i put the css in the coresponding component css file
+// but if the whole app uses like a certain button style i put the css in the main css/scss file
+.chat-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.chat-header {
+  display: flex;
+  //justify-content: center;
+  //align-items: center;
+  height: 64px;
+  padding: 0 16px;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 70%;
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.bot-message {
+  background: #007bff;
+  color: white;
+  align-self: flex-start;
+}
+
+.user-message {
+  background: #e0e0e0;
+  align-self: flex-end;
+}
+
+.option {
+  background: #6b68f1;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.option:hover {
+  background: #3398eb;
+}
+
+.chat-input {
+  display: flex;
+  padding: 16px;
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.input-field {
+  flex: 1;
+  margin-right: 8px;
+}
