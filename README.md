@@ -47,9 +47,8 @@ To run the BE server you just input the following command in the CMD of that fol
 npm start
 ```
 
-We can see all the dependencies used in the package.json file located in the folder:
+We can see all the dependencies used in the package.json file located in the folder.
 
-![[Pasted image 20240803115805.png]]
 
 Now for the FE we also have to run the ``` npm install ``` command. Afterward we can run the app by using the following command:
 
@@ -58,10 +57,3 @@ ng serve
 ```
 
 Once both the FE and BE are up and running we can finally use the app:
-
-![[Pasted image 20240803120014.png]]
-
-![[Pasted image 20240803120028.png]]
-![[Pasted image 20240803120038.png]]
-![[Pasted image 20240803120047.png]]
-![[Pasted image 20240803120057.png]]
